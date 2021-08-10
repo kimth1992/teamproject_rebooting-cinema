@@ -69,3 +69,43 @@ for (int i = 0; i = size; i++)  => 표준
 	3.2  비밀번호 찾기(id 입력받아서) => 비밀번호 재등록
 
 0. 종료
+
+
+
+
+2021.08.09 2차 팀미팅						
+						
+
+"미팅 목적 : 관리자, 고객의 domain(변수 선언) 및 필요 메서드 정리
+p.s : pull request 추후 고려 , git push 작업 진행시 카톡에 push한다고 말해두기
+commit시 다른 팀원들이 commit만 보고 작업 내용을 알 수 있도록 구체적으로 작성 
+ex) commit -m ""2021-08-09 insult admin-movieAdd() method"	
+
+String movieTitle				String name
+int limitAge					int age
+int ticketPrice					String email
+String startTime				int phoneNum(4자리)
+String endTime					String clientId
+String adminID					String clientPW
+String adminPW					------------------
+boolean isAdmin					String level
+						int membershipPoint
+						int money = 100,000 초기값
+				
+adminController					clientController
+				
+CRUD Movie()					movieTicketing()
+client info()					myPage()
+adminSingup()					clientSingup()
+findByNo() -> no = phoneNum			findByNo()
+				
+
+결제관련 클래스
+int money;
+int membershipPoint
+
+
+
+					
+						
+						
